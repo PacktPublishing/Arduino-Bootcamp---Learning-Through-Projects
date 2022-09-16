@@ -1,0 +1,32 @@
+Useful Links
+
+digitalRead() function
+https://www.arduino.cc/en/Reference/DigitalRead
+
+tone() function
+https://www.arduino.cc/en/Reference/Tone
+
+noTone() function
+https://www.arduino.cc/en/Reference/NoTone
+
+analogRead() function
+https://www.arduino.cc/en/Reference/AnalogRead
+
+analogWrite() function
+https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/
+
+map() function
+https://www.arduino.cc/en/Reference/Map
+
+Link to all Arduino functions
+https://www.arduino.cc/
+
+Input Pullup Documentation
+https://docs.arduino.cc/built-in-examples/digital/InputPullupSerial
+
+attachIterrupt() function
+https://www.arduino.cc/en/Reference/AttachInterrupt
+
+random() function
+https://www.arduino.cc/en/Reference/Random
+

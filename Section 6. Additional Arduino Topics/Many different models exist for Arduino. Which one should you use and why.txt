@@ -1,0 +1,130 @@
+Many different models exist for Arduino. Which one should you use and why?
+Arduino comes in many different varieties and sometimes it is difficult to figure out which model you should use. In this class, we have focused on the Arduino Uno which is the most popular variety, but there are also several different other models that you may come across. 
+
+It is important to note that once you become familiar with one model, all others operate similarly. The models typically differ based on the number of I/O pins that are available, Flash memory and EEPROM. From a form-factor perspective, some are smaller than others.
+
+The following link gives a breakdown of the different models that are available: https://www.arduino.cc/en/main/products
+
+Some brief highlights of the technical specs of the most popular models are given below.
+
+
+ARDUINO UNO
+
+Digital I/O Pins: 14 (6 provide PWM output) 
+
+PWM Digital I/O Pins: 6
+
+Analog Input Pins: 6
+
+Flash Memory: 32 k
+
+EEPROM: 1 k
+
+
+
+ARDUINO MEGA
+
+Digital I/O Pins: 54 (15 provide PWM output) 
+
+PWM Digital I/O Pins: 15
+
+Analog Input Pins: 16
+
+Flash Memory: 256 k
+
+EEPROM 4 k
+
+
+
+ARDUINO 101 (USA ONLY) /  GENUINO 101 (Outside USA)
+
+Digital I/O Pins: 14 (4 provide PWM output) PWM Digital I/O Pins: 4
+
+Analog Input Pins: 6
+
+Flash Memory: 196 k
+
+EEPROM: 1 k
+
+Features: Bluetooth LE, 6-axis accelerometer/gyro
+
+
+
+ARDUINO YUN - Has two processors
+
+AVR Arduino microcontroller
+
+Digital I/O Pins: 20 (7 provide PWM output) 
+
+PWM Digital I/O Pins: 7
+
+Analog Input Pins: 12
+
+Flash Memory: 32 k
+
+EEPROM: 1 k
+
+Arduino Microprocessor
+
+Flash Memory: 16 MB
+
+EEPROM: 1 k
+
+Features: Ethernet 802.3 10/100Mbit/s, 802.11b/g/n 2.4 GHz
+
+
+
+ARDUINO NANO
+
+Digital I/O Pins: 22
+
+Analog I/O Pins: 8
+
+Flash Memory: 32 k
+
+EEPROM: 1 k
+
+
+
+ARDUINO MINI
+
+Digital I/O Pins: 14 (6 provide PWM output)
+
+Analog Input  Pins: 8
+
+Flash Memory: 32 k
+
+EEPROM: 1 k
+
+
+
+ARDUINO GEMMA
+
+Digital I/O Pins: 3 (2provide PWM output)
+
+Analog Input  Pins: 1
+
+Flash Memory: 8 k
+
+EEPROM: 512 bytes
+
+
+
+Which model should you choose for your projects?
+
+Arduino Uno - This is the most popular model of Arduino. It can be used for most of your electronics projects. Where you might run into issues is if you require more I/O pins or require additional memory for temporary storage
+Arduino MEGA - This is a much bigger Arduino board and has 54 digital I/O pins and 16 analog inputs. When you are connecting to a lot more sensors or have more robust project requirements, this is a good option. There is also 256 k of flash memory which is quite a step up from the 32 k that the Uno provides. It has 4 K EEPROM as well, so if you project needs to store data or do more in-memory processing that is resource intensive, this board will be the best option
+Arduino 101 - This board enables you to take your project into wireless mode because it has Bluetooth LE built-in. This is great for your projects that require wireless operation. No Wifi shields or bluetooth add-on modules are needed. It also contains a built-in accelerometer and gyro if your project need those components. Again, this reduces the need for adding on these additional components as they are already built-in and are ready to be used right away
+Arduino YUN - This is perfect for your Internet of Things (IOT) projects as it has an ethernet port and WIFI built-in, enabling you to take your project in wireless mode or control it over the Internet. This board is a bit more pricey, but it also contains two processors making it more robust. Use this board for projects that need wireless functionality without the hassle of having to add Wifi or bluetooth components.
+Arduino Nano/Mini - These are the smallest Arduino boards and have significantly less pins and memory capabilities than the other models. However, if your project does not have robust requirements and you only need a few pins for sensor measurements, these modules are ideal. They enable you to keep the form-factor of your electronics project small and can be encased in smaller assemblies for prototyping
+Arduino Gemma - Perhaps the tiniest of Arduino models. This is perfect for wearable type projects. This board can be attached to clothing or materials without adding bulk to your projects. It has only 3 digital I/O pins with 1 analog input pin and a small memory footprint.
+As you can see, there are quite a lot of options for prototyping in the Arduino world. Use the board that aligns with your project requirements. Some things to consider are:
+
+What is the desired size of the end result of your project (bulk/mass)?
+How many input/output pins will you need (how many sensor measurements are you taking and how many external components will you be interfaced to)?
+Do you need built-in bluetooth/wifi capability?
+What are the power requirements of your project?
+The answers to these questions can help you make the right choice of an Arduino model for your project. There are lots to choose from! If you have a particular project requirement and are unsure of which Arduino might be best suited for the job, send me a note or post a question and I will be glad to provide some input.
+
+Happy Making!
+

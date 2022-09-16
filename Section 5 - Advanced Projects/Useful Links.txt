@@ -1,0 +1,54 @@
+Useful Links
+
+Stopwatch Library
+https://github.com/RobTillaart/Arduino/tree/master/libraries/Stopwatch_RT
+
+Bounce2 Library
+https://github.com/thomasfredericks/Bounce2
+
+Arduino Nunchuk Library
+https://github.com/GabrielBianconi/arduino-nunchuk
+
+Pan Tilt Assembly Fame from Adafruit (unassembled)
+https://www.adafruit.com/product/1968
+
+Pan Tilt Assembly Fame from Adafruit (Assembled with Servos)
+https://www.adafruit.com/product/1967
+
+Excellent Soldering Tutorial by Adafruit
+https://www.youtube.com/watch?v=QKbJxytERvg
+
+Great Soldering Tutorial from Spark Fun
+https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering
+
+LiquidCrystal Library Reference
+https://www.arduino.cc/reference/en/libraries/liquidcrystal/
+
+Weather Underground API
+https://www.wunderground.com/login
+
+Wifi Shield Documentation
+https://docs.arduino.cc/retired/shields/arduino-wifi-shield
+
+New Wifi Shield 101 Documentation
+https://docs.arduino.cc/retired/shields/arduino-wifi-shield-101
+
+How DC motor works?
+https://www.youtube.com/watch?v=LAtPHANEfQo
+
+Sparkfun Soldering Tutorial
+https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering
+
+Great Adafruit Soldring Tutorial
+https://www.youtube.com/watch?v=QKbJxytERvg
+
+Ting 2G Sim Card from Adafruit
+https://www.adafruit.com/product/2505
+
+Ting main website
+https://ting.com/internet
+
+Link to Adafruit FONA Library
+https://learn.adafruit.com/adafruit-fona-800-shield/arduino-test
+
+

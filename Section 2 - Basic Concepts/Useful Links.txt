@@ -1,0 +1,37 @@
+Useful Links
+
+Main Arduino Website
+https://www.arduino.cc/
+
+Arduino Products Page
+https://www.arduino.cc/en/hardware
+
+Arduino IDE (Integrated Development Environment)
+https://www.arduino.cc/en/software
+
+Instructions for Mac - Install the Arduino IDE
+https://docs.arduino.cc/software/ide-v1/tutorials/macOS
+
+Instructions for Windows - Install the Arduino IDE
+https://docs.arduino.cc/software/ide-v1/tutorials/Windows/
+
+pinMode() function
+https://www.arduino.cc/en/Reference/PinMode
+
+digitalWrite() function
+https://www.arduino.cc/en/Reference/DigitalWrite
+
+delay() function
+https://www.arduino.cc/en/Reference/Delay
+
+C Programming Tutorial
+https://www.tutorialspoint.com/cprogramming/
+
+Book: Programming Arduino : Getting Starting with Sketches
+https://www.amazon.com/Programming-Arduino-Getting-Started-Sketches/dp/1259641635/ref=as_li_ss_tl?ie=UTF8&qid=1535478886&sr=8-1&keywords=Programming+Arduino+:+Getting+Started+with+Sketches&linkCode=ll1&tag=arduinopibake-20&linkId=46a21d54f3347b75345337a2112b094e&language=en_US
+
+Book: Beginning Arduino Programming
+https://www.amazon.com/Beginning-Arduino-Programming-Technology-Action/dp/1430237775/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1535478940&sr=1-2&keywords=beginning+arduino+programming&linkCode=ll1&tag=arduinopibake-20&linkId=c55ce7796bd37432b75304399efede05&language=en_US
+
+Book: Beginning C for Arduino
+https://www.amazon.com/Beginning-Arduino-Second-Learn-Programming/dp/1484209419/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1535478974&sr=1-2&keywords=beginning+c+for+arduino&linkCode=ll1&tag=arduinopibake-20&linkId=cd4c372b730c213be91c37a80841eb45&language=en_US

@@ -1,0 +1,30 @@
+How to Apply External Power In Arduino Projects
+Sometimes it is necessary to provide additional external power to your Arduino project. This might be due to the demand for more power imposed by the electrical components that you use in your project.
+
+As an example, if you have a DC motor or a pair of DC motors in your project (this might be the case when you are building a car or robot) or if you have multiple servos, you will need to provide an external power source for your project to operate correctly.
+
+The USB connection to the Arduino only supplies 5V and this is not sufficient to power motors or servos, which often are rated at 6V or higher. In addition, the current requirements of these components is higher and the USB port cannot provide the current draw that is needed to properly operate the circuit. The circuit may start off working fine, but over time, the high current demand cannot be sustained. This results in “brown outs” and an unstable circuit and the Arduino may even reset and start over. In addition, if you want to have your circuit mobile and not tethered to cables, you need to provide external power for your project.
+
+So the question is, how can this be accomplished? There are a couple options here.
+
+1. Using the DC Jack
+
+The Arduino itself can be powered by using the DC jack. In the case of the Arduino Uno, although the operating voltage is 5V, an input voltage higher than this, usually in the range 7-12V is preferred to power the board. A 9V battery which terminates with a 2.1mm barrel connector can be used and plugged into the DC jack. The connector or plug must also be “center positive”, meaning that middle pin of the plug has to be the + connection.
+
+There are several 9V battery holders that have a barrel connector to plug into the Arduino. Some specific examples have been given in the parts list for this course.
+
+An AC-to-DC adapter can also be used. It plugs into your AC wall socket and provides DC output, usually in the range between 9V and 12 V.  Adapters that provide 500 mA or better yet 1A are best as these will definitely be able to provide current to drive components in your project.
+
+If your project can remain stationary, a good option is to use the AC-to-DC adaptor. In this scenario, the VIN pin on the Arduino can then be used as the +ve power connection to drive the other components in your circuit. The power supplied through the jack is in essence accessed through the VIN pin to power your circuit. This is often a very convenient option for projects where the Arduino board does not have to be mobile.
+
+2. Using the VIN pin on the Arduino
+
+If you do not use the DC jack or do not have an external AC-to-DC adaptor or 9V battery with a barrel connector, another option is to provide input directly from your external power source into the VIN pin of the Arduino. As an example, the leads from a battery can be inserted into the GND pin and the VIN pin  to serve as your POWER connector. Essentially in this scenario, instead of using the USB port that is coming from the computer or the DC jack, your external power source provides the input voltage to the board  through the VIN pin.
+
+What should be the voltage of your external power supply?
+
+In the case of the Arduino Uno, the board can operate on an external supply from 6 to 20 volts. If supplied with less than 7V, however, the 5V pin may supply less than five volts and the board may become unstable. If using more than 12V, the voltage regulator may overheat and damage the board. The recommended range is 7 to 12 volts.
+
+A special note about the 5V pin and 3.3 V pin on the Arduino
+
+The 5V pin outputs a regulated 5V from the regulator on the board. The board can be supplied with power either from the DC power jack (7 - 12V), the USB connector (5V), or the VIN pin of the board (7-12V). This can be used to provide 5V to any component in your project. Keep in mind that the current draw from this and other digital pins should be kept under 20 mA. On the Arduino Uno, the 3.3V pin, which as its name implies can also be used to provide 3.3 V to your circuit is capable of providing up to 50 mA current.

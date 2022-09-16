@@ -1,0 +1,14 @@
+Parts List
+I have included the parts list in the resources section of this lecture.
+
+This is a list of parts for projects that you will need for this course. I will do my best to keep this updated. If a link to an online seller is not working, notify me and I will try to update with an alternative. This can happen from time to time if a vendor runs out of stock or discontinues selling a particular part.
+
+I would recommend getting an Arduino Starter Kit for the course. Most kits come bundled already with 90% to 95% of the parts that you will need for this course.
+
+Since this is a hands-on, projects-based learning class, the best way to effectively learn is to actually do the projects. You will derive the most benefit if you approach the class in this manner.
+
+Also, you can plan ahead which projects you want to do and get the parts only for those projects. I will also give a list of parts by project to assist you with prepping.
+
+I have tried to keep this parts list as updated as possible. If a link does not work or a particular supplier is out of stock, send me a note about this and I will have the list corrected and try to find an alternative link to another online supplier.
+
+Resources for this lecture: Arduino_Bootcamp_Parts_List.pdf
